@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"sourceMap": true
 	},
-	"files" [
-		""
+	"files": [
+		"typescript_config.ts"
 	]
 }
