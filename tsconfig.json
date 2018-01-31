@@ -3,6 +3,6 @@
 		"sourceMap": true
 	},
 	"files": [
-		"invoked_functions.ts"
+		"interfaces.ts"
 	]
 }

@@ -1,9 +1,14 @@
-var names = ['Jordan', 'Paul', 'Adam'];
-var counter = 0;
+var fullName;
+fullName = function (first, last) {
+    return first + " " + last;
+};
+console.log(fullName('Paul', 'Gibbs'));
+(function (first, last) {
+    console.log(first + " " + last);
+})('Adam', 'Prusse');
 (function () {
     for (var name_1 in names) {
         counter++;
     }
 })();
-console.log(counter);
 //# sourceMappingURL=invoked_functions.js.map

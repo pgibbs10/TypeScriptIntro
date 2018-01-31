@@ -1,10 +1,12 @@
-var names : string [] = ['Jordan', 'Paul', 'Adam'];
-var counter : number = 0;
+var fullName : (first : string, last : string) => string;
 
-(function() {
-	for(let name in names) {
-		counter++;
-	}
-})();
+fullName = function(first : string, last : string) {
+	return first + " " + last;
+}
 
-console.log(counter);
+console.log(fullName('Paul', 'Gibbs'));
+
+(function(first : string, last : string) {
+	console.log(first + " " + last);	
+})('Adam', 'Prusse');
+
